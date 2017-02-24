@@ -1,0 +1,15 @@
+[package]
+name = "kard"
+version = "0.0.0"
+authors = ["Saleem Rashid <dev@saleemrashid.com>"]
+
+repository = "https://github.com/saleemrashid/kard-rs"
+
+license = "MIT/Apache-2.0"
+readme = "README.md"
+
+description = """
+Chip card interface device (CCID) implementation for embedded devices
+"""
+
+[dependencies]
