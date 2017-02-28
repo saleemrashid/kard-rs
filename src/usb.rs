@@ -1,6 +1,5 @@
 #[allow(non_snake_case)]
-#[repr(C)]
-#[repr(packed)]
+#[repr(C, packed)]
 pub struct Descriptor {
     bLength: u8,
     bDescriptorType: u8,
