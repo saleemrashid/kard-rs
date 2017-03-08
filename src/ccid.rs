@@ -60,3 +60,14 @@ pub enum MessageType {
     RDR_to_PC_Escape = 0x83,
     RDR_to_PC_DataRateAndClockFrequency = 0x84,
 }
+
+#[cfg(test)]
+mod test {
+    use super::Header;
+    use core::mem;
+
+    #[test]
+    fn test_ccid_header() {
+        assert_eq!(mem::size_of::<Header>(), 10);
+    }
+}
